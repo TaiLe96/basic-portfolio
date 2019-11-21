@@ -1,11 +1,26 @@
 .header {
+    width: 15%;
     color: white;
     background: teal;
     text-align: center;
-    border color: #cccccc;
+    border-color: #cccccc;
     float: left;
     position: fixed;
+    top: 3%;
+    margin: 0 auto;
 
+}
+
+p {
+    color: #777777;
+}
+
+.about-me {
+    line-height: 30px;
+}
+
+h2 {
+    color: teal;
 }
 
 .menu {
@@ -13,9 +28,21 @@
 }
 
 .main {
-    background: white;
+    background: red;
+    bottom: 20%;
+    clear: both;
 }
 
+.wrapper {
+    width: 960px;
+    padding:20px;
+    margin: 0 auto;
+    background: rgb(189, 223, 0);
+    margin-top: 150px;
+    border-color: #dddddd;
+    
+
+}
 
 
 
@@ -25,5 +52,27 @@ footer {
     background: #666666;
     color: white;
     text-align: center;
+    margin-top: auto;
+}
+
+
+
+
+
+form {
+    margin-top: 50px;
+    width: 960px;
+    
+
+}
+
+
+.contact-form {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 0px;
+
+
 
 }
