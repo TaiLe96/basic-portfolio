@@ -4,6 +4,7 @@
     height: 80px;
     color: white;
     margin: 0 auto;
+    border-color: #dddddd;
 
 }
 #name {
@@ -13,16 +14,19 @@
     background: teal;
     text-align: center;
     margin: 0 auto;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 .menu {
     position: absolute;
     right: 0;
     top: 30%;
+    word-spacing: 5px;
 }
 
 
 p, a {
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .about-me {
@@ -31,16 +35,16 @@ p, a {
 
 h2 {
     color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 
 #box {
-    background-image: url(../images/light_grey.png);
+    background-image: url(../images/gravel.png);
     position: relative;
     padding-top: 30px;
     padding-bottom: 200px;
-
-
+    border-color: #dddddd;
 }
 
 .wrapper {
@@ -50,19 +54,6 @@ h2 {
     border-color: #dddddd;
     padding: 50px;
     position: relative;
-}
-
-
-
-footer {
-    width: 100%;
-    height: 40px;
-    background: #666666;
-    color: white;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    margin: auto;
 }
 
 form {
@@ -85,4 +76,18 @@ button {
     width: 100px;
     height: 40px;
     background: teal;
+    color: white;
+    font-size: 15px;
+    
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background: #666666;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
 }
