@@ -1,5 +1,5 @@
 .header {
-    width: 15%;
+    width: 14%;
     color: white;
     background: teal;
     text-align: center;
@@ -16,7 +16,7 @@ p {
 }
 
 .about-me {
-    line-height: 30px;
+    line-height: 40px;
 }
 
 h2 {
@@ -25,19 +25,21 @@ h2 {
 
 .menu {
     float: right;
+    top: 3%;
+    padding: 20px;
 }
 
 .main {
     background: red;
     bottom: 20%;
-    clear: both;
+    position: fixed;
 }
 
 .wrapper {
     width: 960px;
     padding:20px;
     margin: 0 auto;
-    background: rgb(189, 223, 0);
+    background: white;
     margin-top: 150px;
     border-color: #dddddd;
     
@@ -52,7 +54,7 @@ footer {
     background: #666666;
     color: white;
     text-align: center;
-    margin-top: auto;
+    margin-bottom: 0px;
 }
 
 
@@ -72,7 +74,14 @@ form {
     padding: 20px;
     margin: 0 auto;
     margin-top: 0px;
+}
 
-
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    color: #fa0303;
+    background: red;
 
 }
+
