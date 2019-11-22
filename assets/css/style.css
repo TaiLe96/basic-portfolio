@@ -1,3 +1,4 @@
+/* Layout for all HTML */
 .header {
     position: relative;
     width: 960px;
@@ -54,8 +55,10 @@ h2 {
     border-color: #dddddd;
     padding: 50px;
     position: relative;
+    /* height: 800px; */
 }
 
+/* Style for Contact.html */
 form {
     margin-top: 30px;
     width: 960px;
@@ -78,6 +81,37 @@ button {
     background: teal;
     color: white;
     font-size: 15px;
+}
+
+/* Style for portfolio */
+.image1 {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    margin-right: 10px;
+    border-color: #666666;
+    margin-top: 10px;
+    border: 1px solid #666666;
+}
+.img-banner {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    width: 200px;
+    height: 30px;
+    background: teal;
+    color: white;
+    text-align: center;
+    
+}
+.image2 {
+    /* position: absolute; */
+    /* float: right; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid #666666;
+    margin-top: 10px;
     
 }
 
