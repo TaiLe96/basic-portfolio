@@ -10,7 +10,9 @@
 - HTML - used to create elements on the DOM.
 - CSS - used to style the elements in HTML.
 - Git - used to track, commit, and push changes.
-- GitHub - used to publish the page
+- GitHub - used to publish the page.
+- Class - used to style a specific elements in HTML.
+- Position and float - to adjust the flow of the HTML.
 
 ## Summary
 This page contains the information about me, portfolio. contact and message.
